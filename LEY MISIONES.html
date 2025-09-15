@@ -1,0 +1,1637 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ley XII - N.º 27 (Misiones)</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            background-color: #fff;
+        }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin: 10px 0;
+            text-align: left;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #0056b3;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+        .controls {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #search-input {
+            width: 300px;
+            padding: 10px;
+            font-size: 1em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .print-button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .print-button:hover {
+            background-color: #004080;
+        }
+        @media print {
+            body {
+                background-color: #fff;
+            }
+            .controls {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Codigo Procesal Civil, Comercial, de Familia y Violencia Familiar LEY XII-Nº 27 (Misiones)</h1>
+
+    <div class="controls">
+        <input type="text" id="search-input" placeholder="Buscar en la tabla...">
+        <button class="print-button" onclick="window.print()">Imprimir</button>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Artículo</th>
+                <th>Acción/Evento</th>
+                <th>Plazo</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+            <tr>
+                <td>11</td>
+                <td>Tribunal superior resuelve contienda de inhibitoria</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Intimar remisión de actuaciones</td>
+                <td>10 a 15 días</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Actor recusa sin expresión de causa al Juez subrogante</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Recusación sin expresión de causa</td>
+                <td>No suspende los plazos</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Recusación con expresión de causa sobreviniente (desde conocimiento)</td>
+                <td>10 días (con ampliación según Artículo 159)</td>
+            </tr>
+            <tr>
+                <td>24</td>
+                <td>Oportunidades para presentación de recusación</td>
+                <td>Ver Artículo 14</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>Incidente de prueba se recibe / Resolver incidente de prueba</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>Jueces de primera instancia remiten escrito de recusación e informe a la Cámara de Apelaciones</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td rowspan="4">34</td>
+                <td>Jueces dictan providencias simples</td>
+                <td>3 días</td>
+            </tr>
+            <tr>
+                <td>Jueces dictan sentencias definitivas en juicio ordinario</td>
+                <td>40 o 60 días</td>
+            </tr>
+            <tr>
+                <td>Jueces dictan sentencias definitivas en juicio sumarísimo</td>
+                <td>15 o 20 días (u 10 o 15 días en otros supuestos)</td>
+            </tr>
+            <tr>
+                <td>Jueces dictan sentencias interlocutorias y homologatorias</td>
+                <td>10 o 15 días</td>
+            </tr>
+            <tr>
+                <td>35</td>
+                <td>Falta de ejecución de multas (desde que queda firme la resolución)</td>
+                <td>30 días</td>
+            </tr>
+            <tr>
+                <td>36</td>
+                <td>Vencimiento de un plazo</td>
+                <td>Se pasa a la etapa siguiente</td>
+            </tr>
+            <tr>
+                <td>38</td>
+                <td>Secretarios firman providencias de mero trámite</td>
+                <td>Observar plazo del Artículo 34, inc. 3, subinc. a)</td>
+            </tr>
+            <tr>
+                <td>43</td>
+                <td>Partes requieren al Juez que deje sin efecto lo dispuesto por Secretario u Oficial Primero</td>
+                <td>3 días</td>
+            </tr>
+            <tr>
+                <td>46</td>
+                <td>Apercibimiento (involucra fijación de un plazo)</td>
+                <td>Plazo a fijar</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Acompañar documento que justifica la representación</td>
+                <td>Hasta 20 días</td>
+            </tr>
+            <tr>
+                <td>48</td>
+                <td>Gestor acompaña instrumentos que acreditan personalidad o ratifica gestión (desde la primera presentación)</td>
+                <td>40 días hábiles</td>
+            </tr>
+            <tr>
+                <td rowspan="4">53</td>
+                <td>Apoderado continúa gestiones en caso de renuncia hasta que el Juez fije plazo al poderdante</td>
+                <td>Plazo a fijar</td>
+            </tr>
+            <tr>
+                <td>Juez señala plazo para que interesados concurran a estar a derecho (en caso de muerte o incapacidad del poderdante)</td>
+                <td>Plazo a señalar</td>
+            </tr>
+            <tr>
+                <td>Mandatario informa al Juez o Tribunal el deceso o incapacidad del poderdante (desde conocimiento)</td>
+                <td>10 días</td>
+            </tr>
+            <tr>
+                <td>Mandante comparece por sí o por nuevo apoderado (en caso de muerte o inhabilidad del apoderado)</td>
+                <td>Plazo a fijar</td>
+            </tr>
+            <tr>
+                <td>54</td>
+                <td>Audiencia para unificación de la representación</td>
+                <td>Dentro de 10 días</td>
+            </tr>
+            <tr>
+                <td>57</td>
+                <td>Suplir omisión de firma de letrado en escrito (desde notificada la providencia)</td>
+                <td>2º día</td>
+            </tr>
+            <tr>
+                <td>59</td>
+                <td>Citación del demandado</td>
+                <td>Plazo de la citación</td>
+            </tr>
+            <tr>
+                <td>70</td>
+                <td>Vencido se allana (desde conocimiento de títulos e instrumentos tardíamente presentados)</td>
+                <td>5º día</td>
+            </tr>
+            <tr>
+                <td rowspan="2">81</td>
+                <td>Traslado (a peticionario, otra parte y organismo de recaudación de tasa de justicia después de producida la prueba)</td>
+                <td>5 días comunes</td>
+            </tr>
+            <tr>
+                <td>Exención de pago de impuestos y sellado de actuación</td>
+                <td>Hasta que se dicte resolución en solicitud de beneficio de litigar sin gastos</td>
+            </tr>
+            <tr>
+                <td>83</td>
+                <td>Juez ordena la integración de la litis</td>
+                <td>Plazo que señala</td>
+            </tr>
+            <tr>
+                <td>89</td>
+                <td>Resolución sobre pedido de intervención</td>
+                <td>Dentro de 10 días</td>
+            </tr>
+            <tr>
+                <td>92</td>
+                <td>Demandado solicita citación de tercero</td>
+                <td>Dentro del plazo para contestar la demanda</td>
+            </tr>
+            <tr>
+                <td>94</td>
+                <td>Suspensión del procedimiento por citación de tercero</td>
+                <td>Hasta su comparecencia o vencimiento del plazo señalado para comparecer</td>
+            </tr>
+            <tr>
+                <td rowspan="3">97</td>
+                <td>Tercería de dominio se deduce</td>
+                <td>Antes de que se otorgue la posesión de los bienes</td>
+            </tr>
+            <tr>
+                <td>Tercería de mejor derecho se deduce</td>
+                <td>Antes de que se pague al acreedor</td>
+            </tr>
+            <tr>
+                <td>Deducir tercería (después de conocer el embargo)</td>
+                <td>Después de 10 días (abonar costas)</td>
+            </tr>
+            <tr>
+                <td rowspan="2">110</td>
+                <td>Citado pretende citar a su causante (desde notificado)</td>
+                <td>Primeros 5 días</td>
+            </tr>
+            <tr>
+                <td>Citar al deudor (antes de conferirse traslado al demandado)</td>
+                <td>10 días</td>
+            </tr>
+            <tr>
+                <td rowspan="2">112</td>
+                <td>Suplir omisión de acompañar copias de escrito o documento</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>Conservación de copias</td>
+                <td>Plazos establecidos por reglamentación de superintendencia</td>
+            </tr>
+            <tr>
+                <td>121</td>
+                <td>Entregar escritos que venzan un plazo</td>
+                <td>Dentro de las 2 primeras horas del despacho del día hábil inmediato</td>
+            </tr>
+            <tr>
+                <td rowspan="2">125</td>
+                <td>Señalar audiencias</td>
+                <td>Con anticipación no menor de 3 días</td>
+            </tr>
+            <tr>
+                <td>Espera de los citados en audiencia</td>
+                <td>30 minutos</td>
+            </tr>
+            <tr>
+                <td>126</td>
+                <td>Juez fija plazo para devolución de expedientes</td>
+                <td>Plazo a fijar</td>
+            </tr>
+            <tr>
+                <td>128</td>
+                <td>Retardo en devolución de expediente (vencido el plazo)</td>
+                <td>Multa por cada día de retardo</td>
+            </tr>
+            <tr>
+                <td>129</td>
+                <td>Intimar a la parte actora a presentar copias para reconstrucción de expediente</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>130</td>
+                <td>Notificación de resoluciones judiciales</td>
+                <td>Días martes y viernes, o el siguiente hábil</td>
+            </tr>
+            <tr>
+                <td>134</td>
+                <td>Realizar notificaciones personales o por cédula (si el afectado no toma conocimiento)</td>
+                <td>3 días</td>
+            </tr>
+            <tr>
+                <td>136</td>
+                <td>Funcionarios judiciales devuelven expediente</td>
+                <td>Dentro del 3º día</td>
+            </tr>
+            <tr>
+                <td>141</td>
+                <td>Oficina de notificaciones diligencia y devuelve cédula</td>
+                <td>En la forma y plazos de reglamentación de superintendencia</td>
+            </tr>
+            <tr>
+                <td>145</td>
+                <td>Gastos de notificación por radiodifusión</td>
+                <td>Último párrafo del Artículo 145</td>
+            </tr>
+            <tr>
+                <td>149</td>
+                <td>Resolución se tiene por notificada</td>
+                <td>Al día siguiente de la última publicación de edictos</td>
+            </tr>
+            <tr>
+                <td>150</td>
+                <td>Resolución se tiene por notificada</td>
+                <td>Al día siguiente de la última transmisión radiofónica</td>
+            </tr>
+            <tr>
+                <td>151</td>
+                <td>Notificación surte efectos</td>
+                <td>Desde que la parte tuvo conocimiento de la resolución</td>
+            </tr>
+            <tr>
+                <td>152</td>
+                <td>Plazo para contestar vistas y traslados</td>
+                <td>5 días (salvo disposición en contrario)</td>
+            </tr>
+            <tr>
+                <td>153</td>
+                <td>Días y horas hábiles</td>
+                <td>Definidos</td>
+            </tr>
+            <tr>
+                <td>154</td>
+                <td>Jueces y tribunales habilitan días y horas</td>
+                <td>Cuando no es posible señalar audiencias dentro del plazo establecido</td>
+            </tr>
+            <tr>
+                <td>156</td>
+                <td>Plazos legales o judiciales</td>
+                <td>Son perentorios y pueden prorrogarse por acuerdo de partes</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Juez señala plazo (si el Código no lo fija expresamente)</td>
+                <td>Plazo a señalar</td>
+            </tr>
+            <tr>
+                <td>157</td>
+                <td>Plazos empiezan a correr</td>
+                <td>Desde la notificación (o desde la última si son comunes), sin contar día de diligencia ni inhábiles</td>
+            </tr>
+            <tr>
+                <td rowspan="3">158</td>
+                <td>Apoderados acuerdan suspensión de plazos</td>
+                <td>No mayor de 20 días sin conformidad de mandantes</td>
+            </tr>
+            <tr>
+                <td>Partes acuerdan abreviación de un plazo</td>
+                <td>Abreviación acordada</td>
+            </tr>
+            <tr>
+                <td>Jueces pueden declarar interrupción o suspensión de plazos</td>
+                <td>Interrupción o suspensión</td>
+            </tr>
+            <tr>
+                <td>159</td>
+                <td>Ampliación de plazos para diligencias fuera del asiento del Juzgado</td>
+                <td>1 día por cada 200 kilómetros o fracción</td>
+            </tr>
+            <tr>
+                <td>160</td>
+                <td>Ministerio Público y funcionarios sometidos a reglas de plazos</td>
+                <td>Reglas de los plazos</td>
+            </tr>
+            <tr>
+                <td>167</td>
+                <td>Corrección de errores materiales o aclaraciones a la sentencia (a pedido de parte)</td>
+                <td>3 días de la notificación</td>
+            </tr>
+            <tr>
+                <td>168</td>
+                <td>Juez o Tribunal informa a Cámara de Apelaciones o Superior Tribunal de Justicia (imposibilidad de pronunciar sentencia)</td>
+                <td>10 días de anticipación al vencimiento en juicio ordinario; 5 días en los demás casos</td>
+            </tr>
+            <tr>
+                <td>171</td>
+                <td>Promover incidente de nulidad (desde conocido el acto)</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>173</td>
+                <td>Pedido de nulidad tramita por incidente</td>
+                <td>Aplicando normas de Artículos 173 y 174</td>
+            </tr>
+            <tr>
+                <td>181</td>
+                <td>Traslado para contestar un incidente</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Notificación personal o por cédula del traslado de incidente</td>
+                <td>Dentro del 3º día</td>
+            </tr>
+            <tr>
+                <td>182</td>
+                <td>Audiencia para recibir prueba en un incidente</td>
+                <td>No puede exceder de 10 días</td>
+            </tr>
+            <tr>
+                <td>183</td>
+                <td>Postergar o suspender audiencia de prueba en un incidente</td>
+                <td>Una sola vez por plazo no mayor de 10 días</td>
+            </tr>
+            <tr>
+                <td>188</td>
+                <td>Plazos en proceso sumarísimo</td>
+                <td>Los que fije el Juez</td>
+            </tr>
+            <tr>
+                <td>201</td>
+                <td>Notificación personal o por cédula de medidas precautorias al afectado</td>
+                <td>3 días</td>
+            </tr>
+            <tr>
+                <td>206</td>
+                <td>Resolución sobre modificación de medidas cautelares (previo traslado)</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>208</td>
+                <td>Ordenar venta de bienes afectados con peligro de pérdida o desvalorización (previo traslado)</td>
+                <td>Plazo breve</td>
+            </tr>
+            <tr>
+                <td rowspan="2">210</td>
+                <td>Caducidad de medidas cautelares (si no se interpone demanda)</td>
+                <td>10 días siguientes a su traba</td>
+            </tr>
+            <tr>
+                <td>Extinción de inhibiciones y embargos</td>
+                <td>5 años</td>
+            </tr>
+            <tr>
+                <td>223</td>
+                <td>Embargo indebidamente trabado es levantado</td>
+                <td>48 horas</td>
+            </tr>
+            <tr>
+                <td>228</td>
+                <td>Interventor informa al Juzgado gastos extraordinarios urgentes</td>
+                <td>Dentro del 3º día</td>
+            </tr>
+            <tr>
+                <td>232</td>
+                <td>Extinción de anotación de litis</td>
+                <td>5 años de su inscripción</td>
+            </tr>
+            <tr>
+                <td>234</td>
+                <td>Prohibición de contratar queda sin efecto (si quien la obtiene no deduce demanda)</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>240</td>
+                <td>Provisión de alimentos</td>
+                <td>No se inicia juicio correspondiente</td>
+            </tr>
+            <tr>
+                <td>245</td>
+                <td>Recurso de reposición se interpone y funda por escrito (desde notificación de la resolución)</td>
+                <td>3 días</td>
+            </tr>
+            <tr>
+                <td>246</td>
+                <td>Traslado para contestar recurso de reposición (si se interpuso por escrito)</td>
+                <td>3 días</td>
+            </tr>
+            <tr>
+                <td rowspan="2">248</td>
+                <td>Revocatoria in extremis se interpone y funda por escrito (desde notificación de la resolución)</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>Traslado a la contraria en revocatoria in extremis</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>251</td>
+                <td>Plazo para apelar</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td rowspan="2">253</td>
+                <td>Traslado a la otra parte en apelación en relación sin efecto diferido</td>
+                <td>3 días</td>
+            </tr>
+            <tr>
+                <td>Objetar forma de concesión del recurso (desde concedido)</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>254</td>
+                <td>Apelación en efecto diferido se funda</td>
+                <td>En la oportunidad del Artículo 262 (juicio ordinario); conjuntamente con interposición de recurso contra sentencia (ejecución)</td>
+            </tr>
+            <tr>
+                <td>256</td>
+                <td>Apelado debe constituir domicilio en la localidad del tribunal de alzada (si recurso libremente concedido)</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Apelado debe constituir domicilio en la localidad del tribunal de alzada (si recurso en relación)</td>
+                <td>En los escritos del Artículo 253</td>
+            </tr>
+            <tr>
+                <td>257</td>
+                <td>Recurso se declara desierto (si apelante no presenta copias a su cargo)</td>
+                <td>Dentro del 5º día de concedido</td>
+            </tr>
+            <tr>
+                <td>258</td>
+                <td>Expediente o actuaciones se remiten a la Cámara</td>
+                <td>Dentro del 5º día de concedido el recurso</td>
+            </tr>
+            <tr>
+                <td>261</td>
+                <td>Apelante expresa agravios</td>
+                <td>10 días</td>
+            </tr>
+            <tr>
+                <td>262</td>
+                <td>Partes fundan recursos diferidos y realizan otras presentaciones (desde notificada la providencia)</td>
+                <td>Dentro del 5º día</td>
+            </tr>
+            <tr>
+                <td>263</td>
+                <td>Traslado para contestar presentaciones y peticiones</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>264</td>
+                <td>Plazo para presentar alegato</td>
+                <td>6 días</td>
+            </tr>
+            <tr>
+                <td>266</td>
+                <td>Partes manifiestan si van a informar in voce (desde notificada la providencia)</td>
+                <td>Dentro del 5º día</td>
+            </tr>
+            <tr>
+                <td>267</td>
+                <td>Traslado del escrito de expresión de agravios al apelado</td>
+                <td>10 días</td>
+            </tr>
+            <tr>
+                <td>274</td>
+                <td>Pedir aclaratoria</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>278</td>
+                <td>Objeción sobre la forma de concesión del recurso</td>
+                <td>Dentro del 3º día</td>
+            </tr>
+            <tr>
+                <td>283</td>
+                <td>Plazo para interponer queja por recurso denegado</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td rowspan="3">287</td>
+                <td>Recursos extraordinarios se proponen por escrito (desde notificación)</td>
+                <td>10 días siguientes</td>
+            </tr>
+            <tr>
+                <td>Depósito se presenta</td>
+                <td>Antes del vencimiento término para ese acto</td>
+            </tr>
+            <tr>
+                <td>Recurrente integra depósito si es insuficiente</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>288</td>
+                <td>Traslado del recurso a las partes</td>
+                <td>10 días</td>
+            </tr>
+            <tr>
+                <td>289</td>
+                <td>Cámara o Tribunal eleva autos al Superior Tribunal de Justicia</td>
+                <td>5 días siguientes</td>
+            </tr>
+            <tr>
+                <td>290</td>
+                <td>Superior Tribunal examina el recurso</td>
+                <td>15 días</td>
+            </tr>
+            <tr>
+                <td>293</td>
+                <td>Sentencia del Superior Tribunal se dicta (desde que el proceso está en estado)</td>
+                <td>80 días</td>
+            </tr>
+            <tr>
+                <td>306</td>
+                <td>Partes desisten del proceso</td>
+                <td>Antes de la sentencia</td>
+            </tr>
+            <tr>
+                <td>307</td>
+                <td>Actor desiste del derecho</td>
+                <td>Antes de la sentencia</td>
+            </tr>
+            <tr>
+                <td rowspan="4">312</td>
+                <td>Caducidad de la instancia en primera o única instancia</td>
+                <td>6 meses</td>
+            </tr>
+            <tr>
+                <td>Caducidad de la instancia en segunda o tercera instancia</td>
+                <td>3 meses</td>
+            </tr>
+            <tr>
+                <td>Caducidad de la instancia (si plazo de prescripción de la acción es menor)</td>
+                <td>El de prescripción de la acción</td>
+            </tr>
+            <tr>
+                <td>Caducidad de la instancia en incidente de caducidad de instancia y procesos urgentes</td>
+                <td>1 mes</td>
+            </tr>
+            <tr>
+                <td>313</td>
+                <td>Cómputo de los plazos del Artículo 312</td>
+                <td>Desde la fecha de la última petición o resolución que impulse el procedimiento</td>
+            </tr>
+            <tr>
+                <td>317</td>
+                <td>Pedir declaración de caducidad (previa intimación para producir actividad)</td>
+                <td>Antes de consentir cualquier actuación posterior al vencimiento del plazo legal, dentro de 5 días</td>
+            </tr>
+            <tr>
+                <td>319</td>
+                <td>Resolución sobre caducidad</td>
+                <td>Es apelable</td>
+            </tr>
+            <tr>
+                <td rowspan="3">325</td>
+                <td>Persona presta declaración jurada por escrito en preparación de proceso de conocimiento</td>
+                <td>Plazo que fija el Juez</td>
+            </tr>
+            <tr>
+                <td>Eventual demandado constituye domicilio (desde notificado)</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>Deducir demanda (desde realización de diligencias preparatorias)</td>
+                <td>Dentro de 30 días</td>
+            </tr>
+            <tr>
+                <td>326</td>
+                <td>Si requerido no responde declaración jurada</td>
+                <td>Dentro del plazo fijado, se tienen por ciertos los hechos</td>
+            </tr>
+            <tr>
+                <td>328</td>
+                <td>Partes solicitan producción anticipada de prueba</td>
+                <td>En proceso de conocimiento</td>
+            </tr>
+            <tr>
+                <td>331</td>
+                <td>Interpelado no cumple orden del Juez</td>
+                <td>En el plazo fijado</td>
+            </tr>
+            <tr>
+                <td>335</td>
+                <td>Demandantes o reconvinientes agregan prueba documental sobre hechos nuevos y ofrecen otras pruebas (desde notificada la providencia)</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>339</td>
+                <td>Juez da traslado de la demanda al demandado para contestar</td>
+                <td>15 días</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Traslado de la demanda a la Nación, una Provincia o una Municipalidad para contestar</td>
+                <td>60 días</td>
+            </tr>
+            <tr>
+                <td rowspan="2">343</td>
+                <td>Plazo de 15 días se amplía (si demandado reside fuera de jurisdicción)</td>
+                <td>Según Artículo 159</td>
+            </tr>
+            <tr>
+                <td>Juez fija plazo (si demandado reside fuera de la República)</td>
+                <td>Plazo a fijar</td>
+            </tr>
+            <tr>
+                <td rowspan="2">347</td>
+                <td>Oposición de excepciones (falta de personería, defecto legal o arraigo, desde notificada la demanda)</td>
+                <td>Dentro de 5 días</td>
+            </tr>
+            <tr>
+                <td>Oposición de excepciones previas</td>
+                <td>En un solo escrito con la contestación de la demanda o reconvención</td>
+            </tr>
+            <tr>
+                <td>352</td>
+                <td>Juez designa audiencia para recibir prueba ofrecida (vencido el plazo con o sin respuesta)</td>
+                <td>Dentro de 10 días</td>
+            </tr>
+            <tr>
+                <td>355</td>
+                <td>Fijar plazo para subsanar defectos o arraigar</td>
+                <td>Plazo a fijar</td>
+            </tr>
+            <tr>
+                <td>357</td>
+                <td>Demandado debe contestar la demanda</td>
+                <td>Plazo del Artículo 339, con ampliación por distancia</td>
+            </tr>
+            <tr>
+                <td rowspan="2">360</td>
+                <td>Actor debe responder la reconvención</td>
+                <td>15 días</td>
+            </tr>
+            <tr>
+                <td>Actor debe responder la reconvención (documental y ofrecimiento de prueba)</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td rowspan="2">362</td>
+                <td>Juez cita a las partes a audiencia preliminar (desde cumplidos los actos del Artículo 360)</td>
+                <td>Dentro de 60 días</td>
+            </tr>
+            <tr>
+                <td>Partes amplían ofrecimiento de pruebas (si existen exigencias probatorias y se suspende audiencia preliminar)</td>
+                <td>Dentro del 5º día</td>
+            </tr>
+            <tr>
+                <td>367</td>
+                <td>Alegar hechos nuevos (desde notificada la audiencia del Artículo 362)</td>
+                <td>Hasta 5 días después</td>
+            </tr>
+            <tr>
+                <td>369</td>
+                <td>Plazo de prueba</td>
+                <td>Fijado por el Juez, no excede de 40 días (comienza desde fecha de audiencia del Artículo 362)</td>
+            </tr>
+            <tr>
+                <td>371</td>
+                <td>Prueba a producirse fuera de la República se ofrece</td>
+                <td>Dentro del plazo o en la oportunidad pertinente</td>
+            </tr>
+            <tr>
+                <td>377</td>
+                <td>Plazo de prueba no se suspende</td>
+                <td>Salvo supuestos del Artículo 158</td>
+            </tr>
+            <tr>
+                <td>385</td>
+                <td>Fecha de audiencia para diligenciamiento de oficios y exhortos debe ser informada</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>389</td>
+                <td>Juez ordena exhibición de documentos</td>
+                <td>Plazo que señala</td>
+            </tr>
+            <tr>
+                <td>390</td>
+                <td>Intimar a presentación de documentos en poder de una de las partes</td>
+                <td>Plazo que el Juez determina</td>
+            </tr>
+            <tr>
+                <td>397</td>
+                <td>Redargución de falsedad se promueve (desde realizada la impugnación)</td>
+                <td>10 días</td>
+            </tr>
+            <tr>
+                <td rowspan="2">400</td>
+                <td>Oficinas públicas contestan informes o remiten expedientes</td>
+                <td>20 días hábiles</td>
+            </tr>
+            <tr>
+                <td>Entidades privadas contestan informes o remiten expedientes</td>
+                <td>10 días</td>
+            </tr>
+            <tr>
+                <td>401</td>
+                <td>Informar al Juzgado si requerimiento no puede cumplirse en el plazo</td>
+                <td>Antes del vencimiento</td>
+            </tr>
+            <tr>
+                <td>404</td>
+                <td>Solicitud de reiteración del oficio (si vencido el plazo el informe no es remitido)</td>
+                <td>Dentro de 5º día</td>
+            </tr>
+            <tr>
+                <td>405</td>
+                <td>Impugnación de informes por falsedad (desde notificada la providencia)</td>
+                <td>Solo dentro de 5º día</td>
+            </tr>
+            <tr>
+                <td>411</td>
+                <td>Señalar audiencias para prueba testimonial</td>
+                <td>Días seguidos y una supletoria</td>
+            </tr>
+            <tr>
+                <td>412</td>
+                <td>Testigo se tiene por desistido (si no se requiere nueva audiencia)</td>
+                <td>Dentro del 5º día</td>
+            </tr>
+            <tr>
+                <td>413</td>
+                <td>Citación a testigos se diligencia</td>
+                <td>Con 3 días de anticipación por lo menos</td>
+            </tr>
+            <tr>
+                <td>416</td>
+                <td>Si se comprueba que testigo puede comparecer (fijar audiencia)</td>
+                <td>De inmediato, a realizarse dentro del 5º día</td>
+            </tr>
+            <tr>
+                <td>431</td>
+                <td>Reconocimiento de lugares</td>
+                <td>Para eficacia del testimonio</td>
+            </tr>
+            <tr>
+                <td>435</td>
+                <td>Funcionarios exentos de comparecer declaran por escrito</td>
+                <td>Plazo que fija el Juzgado (se entiende 10 días si no se indica)</td>
+            </tr>
+            <tr>
+                <td>440</td>
+                <td>Juez señala plazo para que perito cumpla su cometido</td>
+                <td>Plazo a señalar (si no se fija, se entiende 15 días)</td>
+            </tr>
+            <tr>
+                <td rowspan="2">443</td>
+                <td>Perito solicita anticipo de gastos (desde haber aceptado el cargo)</td>
+                <td>3º día</td>
+            </tr>
+            <tr>
+                <td>Importe de anticipo de gastos debe depositarse</td>
+                <td>5º día</td>
+            </tr>
+            <tr>
+                <td>445</td>
+                <td>Perito puede ser recusado</td>
+                <td>Dentro del 5º día de la audiencia preliminar</td>
+            </tr>
+            <tr>
+                <td>447</td>
+                <td>Perito manifiesta si es cierta la causal de recusación</td>
+                <td>3º día</td>
+            </tr>
+            <tr>
+                <td rowspan="2">449</td>
+                <td>Perito acepta el cargo ante el Oficial Primero (desde notificado de su designación)</td>
+                <td>3º día</td>
+            </tr>
+            <tr>
+                <td>Cámara determina plazo de exclusión de peritos</td>
+                <td>Plazo a determinar</td>
+            </tr>
+            <tr>
+                <td>452</td>
+                <td>Consultores técnicos presentan informes</td>
+                <td>Dentro del plazo fijado al perito</td>
+            </tr>
+            <tr>
+                <td>453</td>
+                <td>Observaciones a las explicaciones del perito (por consultores técnicos o partes)</td>
+                <td>Dentro de 5º día</td>
+            </tr>
+            <tr>
+                <td>455</td>
+                <td>Ordenar ejecución de planos, exámenes científicos, reconstrucción de hechos</td>
+                <td>Sin plazo fijo</td>
+            </tr>
+            <tr>
+                <td>458</td>
+                <td>Impugnar procedencia de prueba pericial o manifestar desinterés (al contestar el traslado)</td>
+                <td>Sin plazo fijo</td>
+            </tr>
+            <tr>
+                <td>459</td>
+                <td>Notificación para reconocimiento judicial (si hay urgencia)</td>
+                <td>De oficio y con 1 día de anticipación</td>
+            </tr>
+            <tr>
+                <td rowspan="2">462</td>
+                <td>Entrega de expediente a letrados para alegar</td>
+                <td>6 días a cada uno</td>
+            </tr>
+            <tr>
+                <td>Plazo para presentar alegato</td>
+                <td>Común</td>
+            </tr>
+            <tr>
+                <td>463</td>
+                <td>Secretario llama autos para sentencia (firmada la resolución de puro derecho o transcurrido el plazo del Artículo 462)</td>
+                <td>Sin plazo fijo</td>
+            </tr>
+            <tr>
+                <td>465</td>
+                <td>Sentencia debe ser notificada de oficio</td>
+                <td>Dentro del 3º día</td>
+            </tr>
+            <tr>
+                <td>466</td>
+                <td>Plazos en juicio sumarísimo (general)</td>
+                <td>3 días</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Plazos en juicio sumarísimo (contestación de demanda, fundar apelación y contestar memorial)</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Audiencia del Artículo 362 en juicio sumarísimo</td>
+                <td>Dentro de 10 días</td>
+            </tr>
+            <tr>
+                <td>467</td>
+                <td>Ejecutar sentencia (vencido el plazo fijado para su cumplimiento)</td>
+                <td>Sin plazo fijo</td>
+            </tr>
+            <tr>
+                <td rowspan="3">471</td>
+                <td>Vencedor presenta liquidación</td>
+                <td>10 días</td>
+            </tr>
+            <tr>
+                <td>Vencido presenta liquidación (si vencedor no lo hizo)</td>
+                <td>Después de 10 días</td>
+            </tr>
+            <tr>
+                <td>Traslado de liquidación</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>473</td>
+                <td>Excepciones en citación de venta se oponen y prueban</td>
+                <td>Dentro del 5º día</td>
+            </tr>
+            <tr>
+                <td rowspan="2">476</td>
+                <td>Continuar ejecución (vencidos 5 días sin oposición)</td>
+                <td>Sin plazo fijo</td>
+            </tr>
+            <tr>
+                <td>Continuar ejecución (con oposición, previo traslado)</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>480</td>
+                <td>Sentencia que condena a escriturar (apercibimiento si obligado no cumple)</td>
+                <td>Plazo a fijar</td>
+            </tr>
+            <tr>
+                <td>481</td>
+                <td>Parte no cumple con condena a hacer</td>
+                <td>En el plazo señalado</td>
+            </tr>
+            <tr>
+                <td>483</td>
+                <td>Librar mandamiento para desapoderar de la cosa al vencido</td>
+                <td>Sin plazo fijo</td>
+            </tr>
+            <tr>
+                <td>492</td>
+                <td>Títulos que traen aparejada ejecución</td>
+                <td>Sin plazo fijo</td>
+            </tr>
+            <tr>
+                <td>494</td>
+                <td>Preparar vía ejecutiva (pidiendo que el Juez señale plazo para pago si acto constitutivo no lo designa)</td>
+                <td>Plazo a señalar</td>
+            </tr>
+            <tr>
+                <td>495</td>
+                <td>Citar al demandado para reconocimiento de su firma</td>
+                <td>Sin plazo fijo</td>
+            </tr>
+            <tr>
+                <td>497</td>
+                <td>Juez declara firma auténtica y, si lo es, impone costas y multa (si documento no es reconocido)</td>
+                <td>Sin plazo fijo</td>
+            </tr>
+            <tr>
+                <td>498</td>
+                <td>Caducidad de medidas preparatorias del juicio ejecutivo (si no se deduce demanda)</td>
+                <td>15 días de su realización</td>
+            </tr>
+            <tr>
+                <td rowspan="3">500</td>
+                <td>Oficial de Justicia embarga bienes (si no se paga importe en el acto)</td>
+                <td>En el acto</td>
+            </tr>
+            <tr>
+                <td>Hacer saber el embargo</td>
+                <td>3 días siguientes</td>
+            </tr>
+            <tr>
+                <td>Notificar al propietario para que manifieste si bienes están embargados o afectados</td>
+                <td>Dentro del plazo para oponer excepciones</td>
+            </tr>
+            <tr>
+                <td>507</td>
+                <td>Oficios o exhortos para embargo de inmuebles o muebles registrables se libran</td>
+                <td>48 horas</td>
+            </tr>
+            <tr>
+                <td>510</td>
+                <td>Ejecución puede ser ampliada pidiendo al deudor exhibir recibos (si vencen nuevos plazos o cuotas)</td>
+                <td>Dentro del 5º día</td>
+            </tr>
+            <tr>
+                <td rowspan="2">511</td>
+                <td>Excepciones se proponen</td>
+                <td>5 días en un solo escrito</td>
+            </tr>
+            <tr>
+                <td>Deudor constituye domicilio</td>
+                <td>Dentro del plazo para oponer excepciones</td>
+            </tr>
+            <tr>
+                <td>513</td>
+                <td>Excepciones admisibles en el juicio ejecutivo</td>
+                <td>Enumeradas</td>
+            </tr>
+            <tr>
+                <td>514</td>
+                <td>Ejecutado solicita nulidad de la ejecución</td>
+                <td>Dentro del plazo del Artículo 511</td>
+            </tr>
+            <tr>
+                <td>515</td>
+                <td>Embargo se mantiene (si se anula procedimiento ejecutivo)</td>
+                <td>15 días</td>
+            </tr>
+            <tr>
+                <td>517</td>
+                <td>Juez pronuncia sentencia (si excepciones son de puro derecho y contestado el traslado)</td>
+                <td>10 días</td>
+            </tr>
+            <tr>
+                <td>519</td>
+                <td>Juez pronuncia sentencia (producida la prueba)</td>
+                <td>10 días</td>
+            </tr>
+            <tr>
+                <td>524</td>
+                <td>Expediente se eleva a la Cámara (si no se presta fianza)</td>
+                <td>Dentro de 5 días de concedido el recurso</td>
+            </tr>
+            <tr>
+                <td>525</td>
+                <td>Fianza queda cancelada (si ejecutado no promueve juicio ordinario)</td>
+                <td>15 días</td>
+            </tr>
+            <tr>
+                <td>534</td>
+                <td>Martillero deposita sumas recibidas y rinde cuentas del remate</td>
+                <td>3 días de realizado</td>
+            </tr>
+            <tr>
+                <td>535</td>
+                <td>Martillero reintegra comisión (si remate se anula por su culpa, desde notificado)</td>
+                <td>3º día</td>
+            </tr>
+            <tr>
+                <td rowspan="3">536</td>
+                <td>Remate se anuncia por edictos</td>
+                <td>2 días</td>
+            </tr>
+            <tr>
+                <td>Última publicación de edictos</td>
+                <td>Al menos 48 horas antes del remate</td>
+            </tr>
+            <tr>
+                <td>Denunciar defectos de publicidad</td>
+                <td>Vencidos 5 días desde la última publicación</td>
+            </tr>
+            <tr>
+                <td>541</td>
+                <td>Comprador indica nombre de su comitente (desde realizada la subasta)</td>
+                <td>3º día</td>
+            </tr>
+            <tr>
+                <td rowspan="2">543</td>
+                <td>Deudor manifiesta si bienes (muebles o semovientes) están prendados o embargados</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>Acreedores prendarios formulan peticiones (desde notificados)</td>
+                <td>3º día</td>
+            </tr>
+            <tr>
+                <td>545</td>
+                <td>Citar a acreedores hipotecarios para que presenten sus títulos</td>
+                <td>3º día</td>
+            </tr>
+            <tr>
+                <td rowspan="2">546</td>
+                <td>Informes sobre deudas y condiciones de dominio tienen vigencia</td>
+                <td>90 días</td>
+            </tr>
+            <tr>
+                <td>Intimar al deudor a presentar título de propiedad del inmueble</td>
+                <td>3º día</td>
+            </tr>
+            <tr>
+                <td>548</td>
+                <td>Traslado de la tasación a las partes para expresar conformidad o disconformidad</td>
+                <td>5 días comunes</td>
+            </tr>
+            <tr>
+                <td>550</td>
+                <td>Comprador deposita importe del precio (desde aprobado el remate)</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>553</td>
+                <td>Ejecutado no puede requerir sobreseimiento (si comprador depositó saldo del precio)</td>
+                <td>Dentro de los plazos del Artículo 550, o antes</td>
+            </tr>
+            <tr>
+                <td rowspan="2">561</td>
+                <td>Ejecutante presenta liquidación (desde pagado el precio o aprobación del remate)</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>Fianza queda cancelada (si deudor no promueve proceso ordinario)</td>
+                <td>15 días</td>
+            </tr>
+            <tr>
+                <td rowspan="2">562</td>
+                <td>Nulidad del remate (a pedido de parte) se plantea</td>
+                <td>Hasta dentro del 5º día del realizado</td>
+            </tr>
+            <tr>
+                <td>Traslado si pedido de nulidad es admisible</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>563</td>
+                <td>Juez decreta de oficio la nulidad de la subasta</td>
+                <td>Sin plazo fijo</td>
+            </tr>
+            <tr>
+                <td>566</td>
+                <td>Fijar plazo para producción de prueba fuera de la circunscripción territorial del Juzgado</td>
+                <td>Plazo a fijar</td>
+            </tr>
+            <tr>
+                <td>567</td>
+                <td>Invocar caducidad de la inscripción hipotecaria</td>
+                <td>Dentro del plazo para oponer excepciones</td>
+            </tr>
+            <tr>
+                <td>568</td>
+                <td>Deudor denuncia nombre y domicilio de acreedores privilegiados, embargantes y terceros poseedores del inmueble hipotecado</td>
+                <td>Durante el plazo para oponer excepciones</td>
+            </tr>
+            <tr>
+                <td>569</td>
+                <td>Intimar al tercer poseedor a pagar la deuda o abandonar el inmueble</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>573</td>
+                <td>Excepciones admisibles en la ejecución comercial</td>
+                <td>Sin plazo fijo</td>
+            </tr>
+            <tr>
+                <td>578</td>
+                <td>Demanda contra quien ejerce la tenencia de la cosa</td>
+                <td>Trámite del juicio sumarísimo</td>
+            </tr>
+            <tr>
+                <td>581</td>
+                <td>Demanda en el interdicto de retener</td>
+                <td>Trámite del proceso sumarísimo</td>
+            </tr>
+            <tr>
+                <td>585</td>
+                <td>Demanda en el interdicto de recobrar</td>
+                <td>Trámite por juicio sumarísimo</td>
+            </tr>
+            <tr>
+                <td>589</td>
+                <td>Acción de interdicto de obra nueva</td>
+                <td>Trámite por juicio sumarísimo</td>
+            </tr>
+            <tr>
+                <td>591</td>
+                <td>Interdictos de retener, de recobrar y de obra nueva no pueden promoverse</td>
+                <td>Después de transcurrido 1 año de producidos los hechos</td>
+            </tr>
+            <tr>
+                <td>596</td>
+                <td>Traslado de la demanda por rendición de cuentas (si demandado no contesta o no las rinde)</td>
+                <td>Plazo que el Juez fija</td>
+            </tr>
+            <tr>
+                <td>598</td>
+                <td>Juez fija plazos para traslados y producción de prueba en trámite por incidentes de rendición de cuentas</td>
+                <td>Plazos a fijar</td>
+            </tr>
+            <tr>
+                <td>601</td>
+                <td>Traslado de la demanda por aprobación de cuentas al interesado</td>
+                <td>Plazo que fija el Juez</td>
+            </tr>
+            <tr>
+                <td>602</td>
+                <td>Procedencia de la mensura judicial</td>
+                <td>Sin plazo fijo</td>
+            </tr>
+            <tr>
+                <td>605</td>
+                <td>Publicar edictos citando a quienes tienen interés en la mensura</td>
+                <td>3 días (con anticipación necesaria)</td>
+            </tr>
+            <tr>
+                <td>606</td>
+                <td>Agrimensor cita por circular a propietarios de terrenos colindantes</td>
+                <td>Con la anticipación indicada en el inciso 2) del Artículo 605</td>
+            </tr>
+            <tr>
+                <td>614</td>
+                <td>Oficina topográfica remite informe (desde recepción del acta y diligencia de mensura)</td>
+                <td>30 días</td>
+            </tr>
+            <tr>
+                <td rowspan="2">618</td>
+                <td>Traslado de la mensura a las partes</td>
+                <td>10 días</td>
+            </tr>
+            <tr>
+                <td>Juez resuelve oposición a mensura (previo traslado y producción de prueba)</td>
+                <td>Por los plazos que fija</td>
+            </tr>
+            <tr>
+                <td>626</td>
+                <td>Juez realiza reconocimiento judicial (desde dictada la primera providencia)</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td rowspan="3">633</td>
+                <td>Lanzamiento se ordena (en ciertos casos, desde notificación de la sentencia)</td>
+                <td>10 días</td>
+            </tr>
+            <tr>
+                <td>Lanzamiento se ordena (en otros casos, desde notificación de la sentencia)</td>
+                <td>90 días</td>
+            </tr>
+            <tr>
+                <td>Lanzamiento se ordena (para quienes no tienen título legítimo)</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>640</td>
+                <td>Principios procesales (celeridad y temporalidad)</td>
+                <td>Sin plazo específico</td>
+            </tr>
+            <tr>
+                <td>646</td>
+                <td>Agregado de documental, informes, etc. como prueba preconstituida</td>
+                <td>Sin plazo específico</td>
+            </tr>
+            <tr>
+                <td>648</td>
+                <td>Clasificación de procesos</td>
+                <td>Ordinario, sumarísimo y especial</td>
+            </tr>
+            <tr>
+                <td>652</td>
+                <td>Audiencia para autorización para comparecer en juicio</td>
+                <td>Dentro del 3º día</td>
+            </tr>
+            <tr>
+                <td>657</td>
+                <td>Juez de Paz local remite actuaciones al Juez competente (casos de violencia familiar de extrema urgencia)</td>
+                <td>2 días</td>
+            </tr>
+            <tr>
+                <td>658</td>
+                <td>Juez decreta arresto del denunciado, poniéndolo a disposición del Juez Penal en turno</td>
+                <td>No mayor de 24 horas</td>
+            </tr>
+            <tr>
+                <td rowspan="2">661</td>
+                <td>Juez ordena traslado de la demanda al presunto incapaz</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>Remisión de actuaciones al equipo interdisciplinario para informe</td>
+                <td>Dentro del término fijado para producción de pruebas</td>
+            </tr>
+            <tr>
+                <td rowspan="2">662</td>
+                <td>Tiempo para producir pruebas (no puede exceder)</td>
+                <td>30 días</td>
+            </tr>
+            <tr>
+                <td>Equipo interdisciplinario informa fecha de revisión médica y psicológica</td>
+                <td>Sin plazo específico</td>
+            </tr>
+            <tr>
+                <td>666</td>
+                <td>Traslado (producido el informe del equipo interdisciplinario y demás pruebas)</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>667</td>
+                <td>Sentencia se dicta</td>
+                <td>15 días</td>
+            </tr>
+            <tr>
+                <td rowspan="3">668</td>
+                <td>Juez fija audiencia con persona declarada incapaz o restringida</td>
+                <td>Sin plazo específico</td>
+            </tr>
+            <tr>
+                <td>Traslado al curador (después de audiencia)</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>Sentencia se dicta</td>
+                <td>15 días</td>
+            </tr>
+            <tr>
+                <td rowspan="2">671</td>
+                <td>Apelar sentencia (desde su notificación)</td>
+                <td>5º día</td>
+            </tr>
+            <tr>
+                <td>Cámara resuelve apelación</td>
+                <td>10 días</td>
+            </tr>
+            <tr>
+                <td>690</td>
+                <td>Juez competente dicta resolución de restitución de menores</td>
+                <td>Dentro de 60 días corridos</td>
+            </tr>
+            <tr>
+                <td>691</td>
+                <td>Recurso de apelación contra resolución que rechaza restitución de menores o restauración de régimen de comunicación (desde notificación)</td>
+                <td>5º día</td>
+            </tr>
+            <tr>
+                <td>698</td>
+                <td>Juez señala audiencia (desde fecha de presentación)</td>
+                <td>Dentro de 10 días</td>
+            </tr>
+            <tr>
+                <td>699</td>
+                <td>Juez fija nueva audiencia (si alimentante no comparece sin causa justificada)</td>
+                <td>Dentro del 5º día</td>
+            </tr>
+            <tr>
+                <td>700</td>
+                <td>Juez señala nueva audiencia (si parte actora no comparece sin causa justificada)</td>
+                <td>Misma forma y plazo previstos en Artículo 699 inciso 2)</td>
+            </tr>
+            <tr>
+                <td>703</td>
+                <td>Juez dicta sentencia (cuando no se llega a un acuerdo)</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>707</td>
+                <td>Embargo y venta de bienes (si parte vencida no hace efectivo el pago, desde intimado)</td>
+                <td>Dentro de 5º día</td>
+            </tr>
+            <tr>
+                <td rowspan="2">709</td>
+                <td>Nueva cantidad de cuota alimentaria rige</td>
+                <td>Desde la notificación del pedido</td>
+            </tr>
+            <tr>
+                <td>Cesación de cuota alimentaria</td>
+                <td>Ipso iure cumplidos los 21 años de edad del alimentado</td>
+            </tr>
+            <tr>
+                <td rowspan="2">712</td>
+                <td>Resolución de pedido de autorización para contraer matrimonio es apelable (desde notificación)</td>
+                <td>5º día</td>
+            </tr>
+            <tr>
+                <td>Tribunal de alzada se pronuncia sobre apelación</td>
+                <td>10 días</td>
+            </tr>
+            <tr>
+                <td>715</td>
+                <td>Audiencia (partes y representante del Ministerio Público deben comparecer personalmente)</td>
+                <td>Sin plazo específico</td>
+            </tr>
+            <tr>
+                <td>718</td>
+                <td>Presentante comunica inicio de procedimiento sucesorio al Registro de Juicios Universales</td>
+                <td>Dentro del 3º día de iniciado</td>
+            </tr>
+            <tr>
+                <td>719</td>
+                <td>Multas deben ser depositadas (desde intimadas)</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>722</td>
+                <td>Acreedores inician proceso sucesorio</td>
+                <td>Después de transcurridos 4 meses desde fallecimiento del causante (Juez puede ampliar o reducir)</td>
+            </tr>
+            <tr>
+                <td>723</td>
+                <td>Sucesores del heredero fallecido acreditan carácter y comparecen</td>
+                <td>Dentro del plazo que el Juez fija</td>
+            </tr>
+            <tr>
+                <td rowspan="2">727</td>
+                <td>Juez dispone citación de quienes se consideran con derecho a los bienes del causante</td>
+                <td>30 días</td>
+            </tr>
+            <tr>
+                <td>Plazo del Artículo 2340 del CCCN (comienza a correr y se computa)</td>
+                <td>Desde día siguiente de última publicación de edictos, en días corridos (salvo ferias judiciales)</td>
+            </tr>
+            <tr>
+                <td>728</td>
+                <td>Juez dicta declaratoria de herederos</td>
+                <td>Cumplidos el plazo y trámites del Artículo 727</td>
+            </tr>
+            <tr>
+                <td>732</td>
+                <td>Juez señala audiencia (cita a beneficiarios y herederos)</td>
+                <td>Sin plazo específico</td>
+            </tr>
+            <tr>
+                <td>735</td>
+                <td>Juez dispone notificación personal de herederos para que se presenten</td>
+                <td>30 días</td>
+            </tr>
+            <tr>
+                <td rowspan="3">741</td>
+                <td>Administrador de la sucesión rinde cuentas</td>
+                <td>Trimestralmente</td>
+            </tr>
+            <tr>
+                <td>Rendiciones de cuentas parciales se ponen en Secretaría</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>Rendición de cuenta final se pone en Secretaría</td>
+                <td>10 días</td>
+            </tr>
+            <tr>
+                <td>752</td>
+                <td>Inventario y avalúo se ponen de manifiesto en Secretaría</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>756</td>
+                <td>Partidor presenta la partición</td>
+                <td>Dentro del plazo que el Juez fija</td>
+            </tr>
+            <tr>
+                <td>759</td>
+                <td>Partición presentada se pone de manifiesto en Secretaría</td>
+                <td>10 días</td>
+            </tr>
+            <tr>
+                <td>760</td>
+                <td>Juez resuelve (si interesados no pueden ponerse de acuerdo, desde celebrada la audiencia)</td>
+                <td>10 días</td>
+            </tr>
+            <tr>
+                <td>761</td>
+                <td>Sucesión se reputa vacante (vencido el plazo del Artículo 727 o ampliación del Artículo 728, si no se presentaron o no acreditaron herederos)</td>
+                <td>Sin plazo específico</td>
+            </tr>
+            <tr>
+                <td>769</td>
+                <td>Convenir el plazo en que los árbitros deben pronunciar el laudo</td>
+                <td>Plazo convenido</td>
+            </tr>
+            <tr>
+                <td>770</td>
+                <td>Traslado al demandado para constitución del tribunal arbitral</td>
+                <td>10 días</td>
+            </tr>
+            <tr>
+                <td>775</td>
+                <td>Recusación se deduce ante los mismos árbitros (desde conocido el nombramiento)</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td rowspan="2">776</td>
+                <td>Compromiso cesa por el transcurso del plazo</td>
+                <td>Plazo señalado o legal</td>
+            </tr>
+            <tr>
+                <td>Compromiso cesa (si partes o árbitros no impulsaron procedimiento)</td>
+                <td>Durante 3 meses</td>
+            </tr>
+            <tr>
+                <td>782</td>
+                <td>Árbitros pronuncian su fallo</td>
+                <td>Dentro del plazo fijado en el compromiso</td>
+            </tr>
+            <tr>
+                <td>783</td>
+                <td>Juez fija plazo para laudar (si partes no lo establecieron)</td>
+                <td>Plazo a fijar (continuo y se prorroga 30 días si una parte fallece)</td>
+            </tr>
+            <tr>
+                <td>784</td>
+                <td>Árbitros que no pronuncian el laudo dentro del plazo</td>
+                <td>Carecen de derecho a honorarios</td>
+            </tr>
+            <tr>
+                <td>787</td>
+                <td>Recursos se deducen ante el tribunal arbitral</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>798</td>
+                <td>Amigables componedores pronuncian laudo (si partes no fijaron plazo)</td>
+                <td>3 meses de la última aceptación</td>
+            </tr>
+            <tr>
+                <td rowspan="2">799</td>
+                <td>Partes demandan nulidad del laudo (desde notificado)</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>Juez da traslado a la otra parte (demanda de nulidad de laudo)</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>801</td>
+                <td>Amigables componedores deben pronunciarse (si no existe plazo fijado)</td>
+                <td>1 mes a partir de la última aceptación</td>
+            </tr>
+            <tr>
+                <td>802</td>
+                <td>Oposición a la segunda copia de escritura pública</td>
+                <td>Trámite del juicio sumarísimo</td>
+            </tr>
+            <tr>
+                <td>806</td>
+                <td>Comprador puede alegar sus defensas (cuando se le autoriza a adquirir mercaderías por cuenta del vendedor)</td>
+                <td>3 días</td>
+            </tr>
+            <tr>
+                <td>809</td>
+                <td>Demanda de declaración de inconstitucionalidad se interpone ante el Superior Tribunal de Justicia</td>
+                <td>30 días</td>
+            </tr>
+            <tr>
+                <td>811</td>
+                <td>Presidente del Tribunal da traslado de la demanda</td>
+                <td>15 días</td>
+            </tr>
+            <tr>
+                <td>814</td>
+                <td>Antecedentes del conflicto de poderes deben ser remitidos</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>815</td>
+                <td>Procurador General debe expedirse</td>
+                <td>5 días</td>
+            </tr>
+            <tr>
+                <td>817</td>
+                <td>Disposiciones del Código entran en vigencia</td>
+                <td>A partir del 1° de marzo de 2014</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script>
+        document.getElementById('search-input').addEventListener('keyup', function() {
+            let filter = this.value.toLowerCase();
+            let rows = document.getElementById('table-body').getElementsByTagName('tr');
+
+            for (let i = 0; i < rows.length; i++) {
+                let text = rows[i].innerText.toLowerCase();
+                if (text.includes(filter)) {
+                    rows[i].style.display = "";
+                } else {
+                    rows[i].style.display = "none";
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>
